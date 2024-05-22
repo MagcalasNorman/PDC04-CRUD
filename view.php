@@ -54,7 +54,7 @@ $result = $conn->query($sql);
                             <td><?php echo ($row['level'] == 1) ? 'Admin' : 'User'; ?></td>
                             <td>
                                 <a class="btn btn-info" href="update.php?user_id=<?php echo $row['user_id']; ?>">Edit</a>
-                                <a class="btn btn-danger" href="delete.php?id=<?php echo $row['user_id']; ?>">Delete</a>
+                                <a class="btn btn-danger" href="delete.php?user_id=<?php echo $row['user_id']; ?>">Delete</a>
                             </td>
                         </tr>
                         <?php
